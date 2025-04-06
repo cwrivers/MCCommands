@@ -1,0 +1,5 @@
+Category,Option,Score,Command
+Mob,Zombie,5,/summon zombie
+Mob,Skeleton,6,/summon skeleton
+Armor,Netherite,10,/give @p netherite_chestplate
+Armor,Diamond,8,/give @p diamond_chestplate
