@@ -1,5 +1,42 @@
 Category,Option,Score,Command
-Mob,Zombie,5,/summon zombie
-Mob,Skeleton,6,/summon skeleton
-Armor,Netherite,10,/give @p netherite_chestplate
-Armor,Diamond,8,/give @p diamond_chestplate
+Feet,Leather Boots,2,/give @p leather_boots
+Feet,Iron Boots,4,/give @p iron_boots
+Feet,Diamond Boots,6,/give @p diamond_boots
+Feet,Netherite Boots,8,/give @p netherite_boots
+Feet,Frost Walker Boots,7,/give @p diamond_boots{Enchantments:[{id:"frost_walker",lvl:2}]}
+Feet,Feather Falling Boots,6,/give @p diamond_boots{Enchantments:[{id:"feather_falling",lvl:4}]}
+
+Legs,Leather Leggings,2,/give @p leather_leggings
+Legs,Iron Leggings,4,/give @p iron_leggings
+Legs,Diamond Leggings,6,/give @p diamond_leggings
+Legs,Netherite Leggings,8,/give @p netherite_leggings
+Legs,Thorns Leggings,7,/give @p diamond_leggings{Enchantments:[{id:"thorns",lvl:3}]}
+Legs,Fire Protection Leggings,6,/give @p diamond_leggings{Enchantments:[{id:"fire_protection",lvl:4}]}
+
+Chest,Leather Chestplate,2,/give @p leather_chestplate
+Chest,Iron Chestplate,4,/give @p iron_chestplate
+Chest,Diamond Chestplate,6,/give @p diamond_chestplate
+Chest,Netherite Chestplate,8,/give @p netherite_chestplate
+Chest,Thorns Chestplate,7,/give @p diamond_chestplate{Enchantments:[{id:"thorns",lvl:3}]}
+Chest,Protection Chestplate,6,/give @p diamond_chestplate{Enchantments:[{id:"protection",lvl:4}]}
+
+Helm,Leather Helmet,2,/give @p leather_helmet
+Helm,Iron Helmet,4,/give @p iron_helmet
+Helm,Diamond Helmet,6,/give @p diamond_helmet
+Helm,Netherite Helmet,8,/give @p netherite_helmet
+Helm,Respiration Helmet,7,/give @p diamond_helmet{Enchantments:[{id:"respiration",lvl:3}]}
+Helm,Night Vision Helmet,7,/give @p diamond_helmet{Enchantments:[{id:"night_vision",lvl:1}]}
+
+Additional Item,Shield,4,/give @p shield
+Additional Item,Bow,5,/give @p bow
+Additional Item,Crossbow,5,/give @p crossbow
+Additional Item,Totem of Undying,9,/give @p totem_of_undying
+Additional Item,Elytra,8,/give @p elytra
+Additional Item,Trident,7,/give @p trident
+
+Potion,Healing Potion,5,/give @p potion{Potion:"minecraft:strong_healing"}
+Potion,Swiftness Potion,4,/give @p potion{Potion:"minecraft:swiftness"}
+Potion,Strength Potion,6,/give @p potion{Potion:"minecraft:strength"}
+Potion,Invisibility Potion,7,/give @p potion{Potion:"minecraft:invisibility"}
+Potion,Fire Resistance Potion,6,/give @p potion{Potion:"minecraft:fire_resistance"}
+Potion,Night Vision Potion,5,/give @p potion{Potion:"minecraft:night_vision"}
