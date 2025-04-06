@@ -41,3 +41,4 @@ Potion,Invisibility Potion,7,/give @p potion{Potion:"minecraft:invisibility"}
 Potion,Fire Resistance Potion,6,/give @p potion{Potion:"minecraft:fire_resistance"}
 Potion,Night Vision Potion,5,/give @p potion{Potion:"minecraft:night_vision"}
 asdfasdf
+bananas
