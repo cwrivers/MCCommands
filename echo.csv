@@ -159,7 +159,7 @@ Environment,Oak Forest,8,/tp @s ~ ~ ~ ,/tp @s,, ~ ~ ~,
 Environment,End Islands,1,/tp @s ~ ~ ~ ,/tp @s,, ~ ~ ~,
 Environment,Mushrooms,8,/tp @s ~ ~ ~ ,/tp @s,, ~ ~ ~,
 
-Mob,Zombie,6,/summon minecraft:zombie ~ ~ ~ {SpawnAmt},/summon minecraft:,zombie, ~ ~ ~,{SpawnAmt}
-Mob,Wolf,7,/summon minecraft:wolf ~ ~ ~ {SpawnAmt},/summon minecraft:,wolf, ~ ~ ~,{SpawnAmt}
-Mob,Warden,1,/summon minecraft:warden ~ ~ ~ {SpawnAmt},/summon minecraft:,warden, ~ ~ ~,{SpawnAmt}
-Mob,Bee,8,/summon minecraft:bee ~ ~ ~ {SpawnAmt},/summon minecraft:,bee, ~ ~ ~,{SpawnAmt}
+Mob,Zombie,6,/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie ~ ~ ~ ,/execute as @e[limit={SpawnAmt}] run summon minecraft:,zombie, ~ ~ ~,
+Mob,Wolf,7,/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf ~ ~ ~ ,/execute as @e[limit={SpawnAmt}] run summon minecraft:,wolf, ~ ~ ~,
+Mob,Warden,1,/execute as @e[limit={SpawnAmt}] run summon minecraft:warden ~ ~ ~ ,/execute as @e[limit={SpawnAmt}] run summon minecraft:,warden, ~ ~ ~,
+Mob,Bee,8,/execute as @e[limit={SpawnAmt}] run summon minecraft:bee ~ ~ ~ ,/execute as @e[limit={SpawnAmt}] run summon minecraft:,bee, ~ ~ ~,
