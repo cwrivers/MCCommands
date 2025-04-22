@@ -146,7 +146,7 @@ Foodstuffs,Bread,,/give @s minecraft:bread 16,/give @s minecraft:,bread,,16
 
 Block,Oak Planks,,/give @s minecraft:oak_planks 64,/give @s minecraft:,oak_planks,,64
 Block,Cobblestone,,/give @s minecraft:cobblestone 64,/give @s minecraft:,cobblestone,,64
-Block,White Bed,,/give @s minecraft:white_bed 18,/give @s minecraft:,white_bed,,18
+Block,White Bed,,/give @s minecraft:white_bed 16,/give @s minecraft:,white_bed,,16
 Block,Torch,,/give @s minecraft:torch 32,/give @s minecraft:,torch,,32
 
 Effect,Glowing,,/effect give @s minecraft:glowing 60 1,/effect give @s minecraft:,glowing,,60 1
@@ -159,7 +159,7 @@ Environment,Oak Forest,8,/tp @s ~ ~ ~ ,/tp @s,, ~ ~ ~,
 Environment,End Islands,1,/tp @s ~ ~ ~ ,/tp @s,, ~ ~ ~,
 Environment,Mushrooms,8,/tp @s ~ ~ ~ ,/tp @s,, ~ ~ ~,
 
-Mob,Zombie,6,/summon minecraft:zombie ~ ~ ~ ,/summon minecraft:,zombie, ~ ~ ~,
-Mob,Wolf,7,/summon minecraft:wolf ~ ~ ~ ,/summon minecraft:,wolf, ~ ~ ~,
-Mob,Warden,1,/summon minecraft:warden ~ ~ ~ ,/summon minecraft:,warden, ~ ~ ~,
-Mob,Bee,8,/summon minecraft:bee ~ ~ ~ ,/summon minecraft:,bee, ~ ~ ~,
+Mob,Zombie,6,/summon minecraft:zombie ~ ~ ~ {SpawnAmt},/summon minecraft:,zombie, ~ ~ ~,{SpawnAmt}
+Mob,Wolf,7,/summon minecraft:wolf ~ ~ ~ {SpawnAmt},/summon minecraft:,wolf, ~ ~ ~,{SpawnAmt}
+Mob,Warden,1,/summon minecraft:warden ~ ~ ~ {SpawnAmt},/summon minecraft:,warden, ~ ~ ~,{SpawnAmt}
+Mob,Bee,8,/summon minecraft:bee ~ ~ ~ {SpawnAmt},/summon minecraft:,bee, ~ ~ ~,{SpawnAmt}
