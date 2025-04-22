@@ -1,4 +1,5 @@
 Category|Option|Score|Command|Cmdbase|ID|Mod|Amt
+
 None|None|1|/give @s minecraft:air 1|/give @s minecraft:|air||1
 Head|Leather Helmet|4|/give @s minecraft:leather_helmet 1|/give @s minecraft:|leather_helmet||1
 Head|Gold Helmet|7|/give @s minecraft:golden_helmet 1|/give @s minecraft:|golden_helmet||1
@@ -7,6 +8,7 @@ Head|Iron Helmet|6|/give @s minecraft:iron_helmet 1|/give @s minecraft:|iron_hel
 Head|Diamond Helmet|9|/give @s minecraft:diamond_helmet 1|/give @s minecraft:|diamond_helmet||1
 Head|Netherite Helmet|10|/give @s minecraft:netherite_helmet 1|/give @s minecraft:|netherite_helmet||1
 Head|Turtle Shell|8|/give @s minecraft:turtle_helmet 1|/give @s minecraft:|turtle_helmet||1
+
 Hat|Player Head|1|/give @s minecraft:player_head 1|/give @s minecraft:|player_head||1
 Hat|Dragon Head|1|/give @s minecraft:dragon_head 1|/give @s minecraft:|dragon_head||1
 Hat|Wither Skeleton Skull|1|/give @s minecraft:wither_skeleton_skull 1|/give @s minecraft:|wither_skeleton_skull||1
@@ -18,12 +20,14 @@ Hat|Carved Pumpkin|2|/give @s minecraft:carved_pumpkin 1|/give @s minecraft:|car
 Hat|Unicorn Horn|1|/give @s minecraft:end_rod[custom_name=[{"text":"Unicorn Horn"}],lore=[[{"text":"Magical"}]],rarity=epic,enchantment_glint_override=true,equippable={slot:head}] 1|/give @s minecraft:|end_rod|"[custom_name=[{"text":"Unicorn Horn"}]|lore=[[{"text":"Magical"}]]|rarity=epic|enchantment_glint_override=true|equippable={slot:head}]"|1
 Hat|Glass Helmet|1|/give @s minecraft:glass[custom_name=[{"text":"Glass Helmet"}],lore=[[{"text":"Perfectly Polished"}]],rarity=rare,enchantment_glint_override=true,equippable={slot:head}] 1|/give @s minecraft:|glass|"[custom_name=[{"text":"Glass Helmet"}]|lore=[[{"text":"Perfectly Polished"}]]|rarity=rare|enchantment_glint_override=true|equippable={slot:head}]"|1
 Hat|Bone|1|/give @s minecraft:bone[custom_name=[{"text":"Bone"}],lore=[[{"text":"Tasty!"}]],rarity=uncommon,enchantment_glint_override=true,food={nutrition:0,saturation:0,can_always_eat:1b},consumable={consume_seconds:25},equippable={slot:head}] 1|/give @s minecraft:|bone|"[custom_name=[{"text":"Bone"}]|lore=[[{"text":"Tasty!"}]]|rarity=uncommon|enchantment_glint_override=true|food={nutrition:0|saturation:0|can_always_eat:1b}|consumable={consume_seconds:25}|equippable={slot:head}]"|1
+
 Chest|Leather Chestplate|3|/give @s minecraft:leather_chestplate 1|/give @s minecraft:|leather_chestplate||1
 Chest|Gold Chestplate|6|/give @s minecraft:golden_chestplate 1|/give @s minecraft:|golden_chestplate||1
 Chest|Chainmail Chestplate|5|/give @s minecraft:chainmail_chestplate 1|/give @s minecraft:|chainmail_chestplate||1
 Chest|Iron Chestplate|7|/give @s minecraft:iron_chestplate 1|/give @s minecraft:|iron_chestplate||1
 Chest|Diamond Chestplate|9|/give @s minecraft:diamond_chestplate 1|/give @s minecraft:|diamond_chestplate||1
 Chest|Netherite Chestplate|10|/give @s minecraft:netherite_chestplate 1|/give @s minecraft:|netherite_chestplate||1
+
 Chest|Elytra|8|/give @s minecraft:elytra 1|/give @s minecraft:|elytra||1
 Legs|Leather Leggings|3|/give @s minecraft:leather_leggings 1|/give @s minecraft:|leather_leggings||1
 Legs|Gold Leggings|5|/give @s minecraft:golden_leggings 1|/give @s minecraft:|golden_leggings||1
@@ -31,12 +35,14 @@ Legs|Chainmail Leggings|5|/give @s minecraft:chainmail_leggings 1|/give @s minec
 Legs|Iron Leggings|7|/give @s minecraft:iron_leggings 1|/give @s minecraft:|iron_leggings||1
 Legs|Diamond legs|9|/give @s minecraft:diamond_leggings 1|/give @s minecraft:|diamond_leggings||1
 Legs|Netherite legs|10|/give @s minecraft:netherite_leggings 1|/give @s minecraft:|netherite_leggings||1
+
 Feet|Leather Boots|4|/give @s minecraft:leather_boots 1|/give @s minecraft:|leather_boots||1
 Feet|Gold Boots|4|/give @s minecraft:golden_boots 1|/give @s minecraft:|golden_boots||1
 Feet|Chainmail Boots|3|/give @s minecraft:chainmail_boots 1|/give @s minecraft:|chainmail_boots||1
 Feet|Iron Boots|6|/give @s minecraft:iron_boots 1|/give @s minecraft:|iron_boots||1
 Feet|Diamond Boots|8|/give @s minecraft:diamond_boots 1|/give @s minecraft:|diamond_boots||1
 Feet|Netherite Boots|10|/give @s minecraft:netherite_boots 1|/give @s minecraft:|netherite_boots||1
+
 Weapon|Wooden Sword|4|/give @s minecraft:wooden_sword 1|/give @s minecraft:|wooden_sword||1
 Weapon|Stone Sword|5|/give @s minecraft:stone_sword 1|/give @s minecraft:|stone_sword||1
 Weapon|Iron Sword|6|/give @s minecraft:iron_sword 1|/give @s minecraft:|iron_sword||1
@@ -67,6 +73,7 @@ Weapon|Fire Charge|4|/give @s minecraft:fire_charge 16|/give @s minecraft:|fire_
 Weapon|Wind Charge|3|/give @s minecraft:wind_charge 16|/give @s minecraft:|wind_charge||16
 Weapon|Snowball|3|/give @s minecraft:snowball 16|/give @s minecraft:|snowball||16
 Weapon|Egg|2|/give @s minecraft:egg 16|/give @s minecraft:|egg||16
+
 ToolA|Wooden Shovel|2|/give @s minecraft:wooden_shovel 1|/give @s minecraft:|wooden_shovel||1
 ToolA|Wooden Pickaxe|2|/give @s minecraft:wooden_pickaxe 1|/give @s minecraft:|wooden_pickaxe||1
 ToolA|Stone Shovel|3|/give @s minecraft:stone_shovel 1|/give @s minecraft:|stone_shovel||1
@@ -93,6 +100,7 @@ ToolA|Saddle|3|/give @s minecraft:saddle 1|/give @s minecraft:|saddle||1
 ToolA|Bones|2|/give @s minecraft:bone 32|/give @s minecraft:|bone||32
 ToolA|Boat|6|/give @s minecraft:oak_boat 1|/give @s minecraft:|oak_boat||1
 ToolA|Stick|1|/give @s minecraft:stick 1|/give @s minecraft:|stick||1
+
 ToolB|Leather Horse Armor|1|/give @s minecraft:leather_horse_armor 1|/give @s minecraft:|leather_horse_armor||1
 ToolB|Iron Horse Armor|2|/give @s minecraft:iron_horse_armor 1|/give @s minecraft:|iron_horse_armor||1
 ToolB|Gold Horse Armor|3|/give @s minecraft:golden_horse_armor 1|/give @s minecraft:|golden_horse_armor||1
@@ -120,29 +128,36 @@ ToolB|Wolf|6|/give @s minecraft:wolf_spawn_egg 1|/give @s minecraft:|wolf_spawn_
 ToolB|Horse|5|/give @s minecraft:horse_spawn_egg 1|/give @s minecraft:|horse_spawn_egg||1
 ToolB|Pig|2|/give @s minecraft:pig_spawn_egg 1|/give @s minecraft:|pig_spawn_egg||1
 ToolB|Strider|5|/give @s minecraft:strider_spawn_egg 1|/give @s minecraft:|strider_spawn_egg||1
+
 Ammo|Firework1|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball|colors:[I;16777215]}]}] 32|/give @s minecraft:|firework_rocket|"[fireworks={flight_duration:3|explosions:[{shape:small_ball|colors:[I;16777215]}]}]"|32
 Ammo|Arrow|2|/give @s minecraft:arrow 32|/give @s minecraft:|arrow||32
 Ammo|Flint and Steel||/give @s minecraft:flint_and_steel 1|/give @s minecraft:|flint_and_steel||1
 Ammo|Tipped Arrow||/give @s minecraft:tipped_arrow 32|/give @s minecraft:|tipped_arrow||32
+
 Potion|Poison||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
 Potion|Swiftness||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
 Potion|Invisibility||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
+
 Foodstuffs|Tricky Poison Potato|1|/give @s minecraft:poisonous_potato[custom_name=[{"text":"Tricky Poisonous Potato"}]|consumable={on_consume_effects:[{type:remove_effects|effects:[poison]}|{type:apply_effects|effects:[{id:regeneration|duration:600}]}]}|food={nutrition:10|saturation:10}] 4|/give @s minecraft:|poisonous_potato|"[custom_name=[{"text":"Tricky Poisonous Potato"}]|consumable={on_consume_effects:[{type:remove_effects|effects:[poison]}|{type:apply_effects|effects:[{id:regeneration|duration:600}]}]}|food={nutrition:10|saturation:10}]"|4
 Foodstuffs|Poison Potato||/give @s minecraft:poisonous_potato 16|/give @s minecraft:|poisonous_potato||16
 Foodstuffs|Apple||/give @s minecraft:apple 16|/give @s minecraft:|apple||16
 Foodstuffs|Bread||/give @s minecraft:bread 16|/give @s minecraft:|bread||16
+
 Block|Oak Planks||/give @s minecraft:oak_planks 64|/give @s minecraft:|oak_planks||64
 Block|Cobblestone||/give @s minecraft:cobblestone 64|/give @s minecraft:|cobblestone||64
 Block|White Bed||/give @s minecraft:white_bed 16|/give @s minecraft:|white_bed||16
 Block|Torch||/give @s minecraft:torch 32|/give @s minecraft:|torch||32
+
 Effect|Glowing||/effect give @s minecraft:glowing 60 1|/effect give @s minecraft:|glowing||60 1
 Effect|Slow Falling||/effect give @s minecraft:slow_falling 60 1|/effect give @s minecraft:|slow_falling||60 1
 Effect|Slowness||/effect give @s minecraft:slowness 60 1|/effect give @s minecraft:|slowness||60 1
 Effect|Dolphin's Grace||/effect give @s minecraft:dolphins_grace 60 1|/effect give @s minecraft:|dolphins_grace||60 1
+
 Environment|Grass|9|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 Environment|Oak Forest|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 Environment|End Islands|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 Environment|Mushrooms|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+
 Mob|Zombie|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie| ~ ~ ~|
 Mob|Wolf|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf| ~ ~ ~|
 Mob|Warden|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:warden ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|warden| ~ ~ ~|
