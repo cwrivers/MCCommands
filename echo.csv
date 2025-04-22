@@ -66,7 +66,7 @@ Weapon|Crossbow|5|/give @s minecraft:crossbow 1|/give @s minecraft:|crossbow||1
 Weapon|Quick Draw Crossbow|6|/give @s minecraft:crossbow[enchantments={quick_draw:1}] 1|/give @s minecraft:|crossbow|[enchantments={quick_draw:1}]|1
 Weapon|Multishot Crossbow|7|/give @s minecraft:crossbow[enchantments={multishot:1}] 1|/give @s minecraft:|crossbow|[enchantments={multishot:1}]|1
 Weapon|Stick|1|/give @s minecraft:stick 1|/give @s minecraft:|stick||1
-Weapon|Knockback Stick|3|/give @s minecraft:stick[custom_name=[{"text":"Stick of Knockback"}]|rarity=epic|enchantments={knockback:50}|tooltip_display={hidden_components:[enchantments]}] 1|/give @s minecraft:|stick|"[custom_name=[{"text":"Stick of Knockback"}]|rarity=epic|enchantments={knockback:50}|tooltip_display={hidden_components:[enchantments]}]"|1
+Weapon|Knockback Stick|3|/give @s minecraft:stick[custom_name=[{"text":"Stick of Knockback"}],rarity=epic,enchantments={knockback:50},tooltip_display={hidden_components:[enchantments]}] 1|/give @s minecraft:|stick|[custom_name=[{"text":"Stick of Knockback"}],rarity=epic,enchantments={knockback:50},tooltip_display={hidden_components:[enchantments]}]|1
 Weapon|TNT|3|/give @s minecraft:tnt 16|/give @s minecraft:|tnt||16
 Weapon|End Crystal|6|/give @s minecraft:end_crystal 16|/give @s minecraft:|end_crystal||16
 Weapon|Fire Charge|4|/give @s minecraft:fire_charge 16|/give @s minecraft:|fire_charge||16
@@ -129,7 +129,7 @@ ToolB|Horse|5|/give @s minecraft:horse_spawn_egg 1|/give @s minecraft:|horse_spa
 ToolB|Pig|2|/give @s minecraft:pig_spawn_egg 1|/give @s minecraft:|pig_spawn_egg||1
 ToolB|Strider|5|/give @s minecraft:strider_spawn_egg 1|/give @s minecraft:|strider_spawn_egg||1
 
-Ammo|Firework1|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball|colors:[I;16777215]}]}] 32|/give @s minecraft:|firework_rocket|"[fireworks={flight_duration:3|explosions:[{shape:small_ball|colors:[I;16777215]}]}]"|32
+Ammo|Firework1|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3,explosions:[{shape:small_ball,colors:[I;16777215]}]}] 32|/give @s minecraft:|firework_rocket|"[fireworks={flight_duration:3,explosions:[{shape:small_ball,colors:[I;16777215]}]}]"|32
 Ammo|Arrow|2|/give @s minecraft:arrow 32|/give @s minecraft:|arrow||32
 Ammo|Flint and Steel||/give @s minecraft:flint_and_steel 1|/give @s minecraft:|flint_and_steel||1
 Ammo|Tipped Arrow||/give @s minecraft:tipped_arrow 32|/give @s minecraft:|tipped_arrow||32
@@ -138,7 +138,7 @@ Potion|Poison||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_pot
 Potion|Swiftness||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
 Potion|Invisibility||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
 
-Foodstuffs|Tricky Poison Potato|1|/give @s minecraft:poisonous_potato[custom_name=[{"text":"Tricky Poisonous Potato"}]|consumable={on_consume_effects:[{type:remove_effects|effects:[poison]}|{type:apply_effects|effects:[{id:regeneration|duration:600}]}]}|food={nutrition:10|saturation:10}] 4|/give @s minecraft:|poisonous_potato|"[custom_name=[{"text":"Tricky Poisonous Potato"}]|consumable={on_consume_effects:[{type:remove_effects|effects:[poison]}|{type:apply_effects|effects:[{id:regeneration|duration:600}]}]}|food={nutrition:10|saturation:10}]"|4
+Foodstuffs|Tricky Poison Potato|1|/give @s minecraft:poisonous_potato[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects,effects:[poison]},{type:apply_effects,effects:[{id:regeneration,duration:600}]}]},food={nutrition:10,saturation:10}] 4|/give @s minecraft:|poisonous_potato|[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects,effects:[poison]},{type:apply_effects,effects:[{id:regeneration,duration:600}]}]},food={nutrition:10,saturation:10}]"|4
 Foodstuffs|Poison Potato||/give @s minecraft:poisonous_potato 16|/give @s minecraft:|poisonous_potato||16
 Foodstuffs|Apple||/give @s minecraft:apple 16|/give @s minecraft:|apple||16
 Foodstuffs|Bread||/give @s minecraft:bread 16|/give @s minecraft:|bread||16
