@@ -158,7 +158,15 @@ Environment|Oak Forest|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 Environment|End Islands|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 Environment|Mushrooms|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 
-Mob|Zombie|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie| ~ ~ ~|
-Mob|Wolf|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf| ~ ~ ~|
-Mob|Warden|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:warden ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|warden| ~ ~ ~|
-Mob|Bee|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:bee ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|bee| ~ ~ ~|
+Mob|Zombie|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie| ~ ~ ~|
+Mob|Wolf|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf| ~ ~ ~|
+Mob|Warden|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:warden ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|warden| ~ ~ ~|
+Mob|Bee|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:bee ~ ~ ~ |/execute as @e[limit={SpawnAmt}] run summon minecraft:|bee| ~ ~ ~|
+
+CWeather|Clear|10|/weather clear |/weather |clear||
+CWeather|Clear|10|/weather clear |/weather |clear||
+CWeather|Clear|10|/weather clear |/weather |clear||
+
+Weather|Rain|8|/weather rain |/weather |rain||
+Weather|Rain|8|/weather rain |/weather |rain||
+Weather|Thunderstorm|5|/weather thunder |/weather |thunder||
