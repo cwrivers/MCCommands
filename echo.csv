@@ -156,7 +156,6 @@ Effect|Dolphin's Grace||/effect give @s minecraft:dolphins_grace 60 1|/effect gi
 Environment|Meadow|9|/tp @s -165 87 49 |/tp @s|| -165 87 49|
 Environment|Oak Forest|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 Environment|End Islands|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Mushrooms|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
 
 Mob|Zombie|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie {MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie| {MobSpawnLoc}|
 Mob|Wolf|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf {MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf| {MobSpawnLoc}|
