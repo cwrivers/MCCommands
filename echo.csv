@@ -1,6 +1,7 @@
 Category|Option|Score|Command|Cmdbase|ID|Mod|Amt
 
 None|None|1|/give @s minecraft:air 1|/give @s minecraft:|air||1
+
 Head|Leather Helmet|4|/give @s minecraft:leather_helmet 1|/give @s minecraft:|leather_helmet||1
 Head|Gold Helmet|7|/give @s minecraft:golden_helmet 1|/give @s minecraft:|golden_helmet||1
 Head|Chainmail Helmet|6|/give @s minecraft:chainmail_helmet 1|/give @s minecraft:|chainmail_helmet||1
@@ -88,17 +89,17 @@ ToolA|Netherite Shovel|6|/give @s minecraft:netherite_shovel 1|/give @s minecraf
 ToolA|Netherite Pickaxe|6|/give @s minecraft:netherite_pickaxe 1|/give @s minecraft:|netherite_pickaxe||1
 ToolA|Flint and Steel|4|/give @s minecraft:flint_and_steel 1|/give @s minecraft:|flint_and_steel||1
 ToolA|Bucket|3|/give @s minecraft:bucket 1|/give @s minecraft:|bucket||1
-ToolA|Water Bucket|4|/give @s minecraft:water_bucket 1|/give @s minecraft:|water_bucket||1
-ToolA|Lava Bucket|4|/give @s minecraft:lava_bucket 1|/give @s minecraft:|lava_bucket||1
-ToolA|Milk Bucket|5|/give @s minecraft:milk_bucket 1|/give @s minecraft:|milk_bucket||1
-ToolA|Shield|8|/give @s minecraft:shield 1|/give @s minecraft:|shield||1
+ToolA|Water Bucket|9|/give @s minecraft:water_bucket 1|/give @s minecraft:|water_bucket||1
+ToolA|Lava Bucket|6|/give @s minecraft:lava_bucket 1|/give @s minecraft:|lava_bucket||1
+ToolA|Milk Bucket|8|/give @s minecraft:milk_bucket 1|/give @s minecraft:|milk_bucket||1
+ToolA|Shield|10|/give @s minecraft:shield 1|/give @s minecraft:|shield||1
 ToolA|Fishing Rod|3|/give @s minecraft:fishing_rod 1|/give @s minecraft:|fishing_rod||1
 ToolA|Carrot on a Stick|2|/give @s minecraft:carrot_on_a_stick 1|/give @s minecraft:|carrot_on_a_stick||1
 ToolA|Fungus on a Stick|2|/give @s minecraft:warped_fungus_on_a_stick 1|/give @s minecraft:|warped_fungus_on_a_stick||1
 ToolA|Spyglass|1|/give @s minecraft:spyglass 1|/give @s minecraft:|spyglass||1
 ToolA|Saddle|3|/give @s minecraft:saddle 1|/give @s minecraft:|saddle||1
 ToolA|Bones|2|/give @s minecraft:bone 32|/give @s minecraft:|bone||32
-ToolA|Boat|6|/give @s minecraft:oak_boat 1|/give @s minecraft:|oak_boat||1
+ToolA|Boat|7|/give @s minecraft:oak_boat 1|/give @s minecraft:|oak_boat||1
 ToolA|Stick|1|/give @s minecraft:stick 1|/give @s minecraft:|stick||1
 
 ToolB|Leather Horse Armor|1|/give @s minecraft:leather_horse_armor 1|/give @s minecraft:|leather_horse_armor||1
@@ -129,38 +130,181 @@ ToolB|Horse|5|/give @s minecraft:horse_spawn_egg 1|/give @s minecraft:|horse_spa
 ToolB|Pig|2|/give @s minecraft:pig_spawn_egg 1|/give @s minecraft:|pig_spawn_egg||1
 ToolB|Strider|5|/give @s minecraft:strider_spawn_egg 1|/give @s minecraft:|strider_spawn_egg||1
 
-Ammo|Firework1|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3,explosions:[{shape:small_ball,colors:[I;16777215]}]}] 32|/give @s minecraft:|firework_rocket|"[fireworks={flight_duration:3,explosions:[{shape:small_ball,colors:[I;16777215]}]}]"|32
-Ammo|Arrow|2|/give @s minecraft:arrow 32|/give @s minecraft:|arrow||32
 Ammo|Flint and Steel||/give @s minecraft:flint_and_steel 1|/give @s minecraft:|flint_and_steel||1
-Ammo|Tipped Arrow||/give @s minecraft:tipped_arrow 32|/give @s minecraft:|tipped_arrow||32
-
-Potion|Poison||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
-Potion|Swiftness||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
-Potion|Invisibility||/give @s minecraft:splash_potion 8|/give @s minecraft:|splash_potion||8
-
-Foodstuffs|Tricky Poison Potato|1|/give @s minecraft:poisonous_potato[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects,effects:[poison]},{type:apply_effects,effects:[{id:regeneration,duration:600}]}]},food={nutrition:10,saturation:10}] 4|/give @s minecraft:|poisonous_potato|[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects,effects:[poison]},{type:apply_effects,effects:[{id:regeneration,duration:600}]}]},food={nutrition:10,saturation:10}]"|4
+Ammo|Arrow|2|/give @s minecraft:arrow 32|/give @s minecraft:|arrow||32
+Ammo|Spectral Arrow||/give @s minecraft:spectral_arrow 32|/give @s minecraft:|spectral_arrow||32
+Ammo|Firework1|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball}]}] 32|/give @s minecraft:|firework_rocket|[fireworks={flight_duration:3|explosions:[{shape:small_ball}]}]|32
+Ammo|Firework2|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}]}] 32|/give @s minecraft:|firework_rocket|[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}]}]|32
+Ammo|Firework3|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}] 32|/give @s minecraft:|firework_rocket|[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}]|32
+Ammo|Firework4|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}] 32|/give @s minecraft:|firework_rocket|[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}]|32
+Ammo|Firework5|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}] 32|/give @s minecraft:|firework_rocket|[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}]|32
+Ammo|Firework6|8|/give @s minecraft:firework_rocket[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}] 32|/give @s minecraft:|firework_rocket|[fireworks={flight_duration:3|explosions:[{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}|{shape:small_ball}]}]|32
+Ammo|Tipped Arrow Slowness||/give @s minecraft:tipped_arrow[potion_contents={custom_color:9284281,custom_effects:[{id:slowness,duration:9700}]},custom_name=[{"text":"Arrow of Slowness","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:9284281,custom_effects:[{id:slowness,duration:9700}]},custom_name=[{"text":"Arrow of Slowness","italic":false}]]"|32
+Ammo|Tipped Arrow Swiftness||/give @s minecraft:tipped_arrow[potion_contents={custom_color:8246242,custom_effects:[{id:speed,duration:9700}]},custom_name=[{"text":"Arrow of Swiftness","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:8246242,custom_effects:[{id:speed,duration:9700}]},custom_name=[{"text":"Arrow of Swiftness","italic":false}]]"|32
+Ammo|Tipped Arrow Healing||/give @s minecraft:tipped_arrow[potion_contents={custom_color:14560847,custom_effects:[{id:instant_health,duration:9700}]},custom_name=[{"text":"Arrow of Healing","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:14560847,custom_effects:[{id:instant_health,duration:9700}]},custom_name=[{"text":"Arrow of Healing","italic":false}]]"|32
+Ammo|Tipped Arrow Poison||/give @s minecraft:tipped_arrow[potion_contents={custom_color:6849305,custom_effects:[{id:poison,duration:9700}]},custom_name=[{"text":"Arrow of Poison","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:6849305,custom_effects:[{id:poison,duration:9700}]},custom_name=[{"text":"Arrow of Poison","italic":false}]]"|32
+Ammo|Tipped Arrow Weakness||/give @s minecraft:tipped_arrow[potion_contents={custom_color:14460828,custom_effects:[{id:weakness,duration:9700}]},custom_name=[{"text":"Arrow of Weakness","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:14460828,custom_effects:[{id:weakness,duration:9700}]},custom_name=[{"text":"Arrow of Weakness","italic":false}]]"|32
+Ammo|Tipped Arrow Invisibility||/give @s minecraft:tipped_arrow[potion_contents={custom_color:15466494,custom_effects:[{id:invisibility,duration:9700}]},custom_name=[{"text":"Arrow of Invisibility","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:15466494,custom_effects:[{id:invisibility,duration:9700}]},custom_name=[{"text":"Arrow of Invisibility","italic":false}]]"|32
+Ammo|Tipped Arrow Weaving||/give @s minecraft:tipped_arrow[potion_contents={custom_color:11452072,custom_effects:[{id:weaving,duration:9700}]},custom_name=[{"text":"Arrow of Weaving","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:11452072,custom_effects:[{id:weaving,duration:9700}]},custom_name=[{"text":"Arrow of Weaving","italic":false}]]"|32
+Ammo|Tipped Arrow Oozing||/give @s minecraft:tipped_arrow[potion_contents={custom_color:8039513,custom_effects:[{id:oozing,duration:9700}]},custom_name=[{"text":"Arrow of Oozing","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:8039513,custom_effects:[{id:oozing,duration:9700}]},custom_name=[{"text":"Arrow of Oozing","italic":false}]]"|32
+Ammo|Tipped Arrow Infesting||/give @s minecraft:tipped_arrow[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:9700}]},custom_name=[{"text":"Arrow of Infestation","italic":false}]] 32|/give @s minecraft:|tipped_arrow|"[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:9700}]},custom_name=[{"text":"Arrow of Infestation","italic":false}]]"|32
+Potion|Splash Water Bottle||/give @s minecraft:splash_potion[potion_contents={custom_color:4088571},custom_name=[{"text":"Splash Water Bottle"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:4088571},custom_name=[{"text":"Splash Water Bottle"}]]"|8
+Potion|Splash Luck Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:3075725,custom_effects:[{id:luck,duration:1200}]},custom_name=[{"text":"Splash Luck Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:3075725,custom_effects:[{id:luck,duration:1200}]},custom_name=[{"text":"Splash Luck Potion"}]]"|8
+Potion|Splash Slowness Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:9284281,custom_effects:[{id:slowness,duration:1200}]},custom_name=[{"text":"Splash Slowness Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:9284281,custom_effects:[{id:slowness,duration:1200}]},custom_name=[{"text":"Splash Slowness Potion"}]]"|8
+Potion|Splash Swiftness Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:8246242,custom_effects:[{id:speed,duration:1200}]},custom_name=[{"text":"Splash Swiftness Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:8246242,custom_effects:[{id:speed,duration:1200}]},custom_name=[{"text":"Splash Swiftness Potion"}]]"|8
+Potion|Splash Leaping Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:12515774,custom_effects:[{id:jump_boost,duration:1200}]},custom_name=[{"text":"Splash Leaping Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:12515774,custom_effects:[{id:jump_boost,duration:1200}]},custom_name=[{"text":"Splash Leaping Potion"}]]"|8
+Potion|Splash Slow Falling Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:14593244,custom_effects:[{id:slow_falling,duration:1200}]},custom_name=[{"text":"Splash Slow Falling Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:14593244,custom_effects:[{id:slow_falling,duration:1200}]},custom_name=[{"text":"Splash Slow Falling Potion"}]]"|8
+Potion|Splash Invisibility Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:15466494,custom_effects:[{id:invisibility,duration:1200}]},custom_name=[{"text":"Splash Invisibility Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:15466494,custom_effects:[{id:invisibility,duration:1200}]},custom_name=[{"text":"Splash Invisibility Potion"}]]"|8
+Potion|Splash Night Vision Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:4664214,custom_effects:[{id:night_vision,duration:1200}]},custom_name=[{"text":"Splash Night Vision Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:4664214,custom_effects:[{id:night_vision,duration:1200}]},custom_name=[{"text":"Splash Night Vision Potion"}]]"|8
+Potion|Splash Water Breathing Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:9224703,custom_effects:[{id:water_breathing,duration:1200}]},custom_name=[{"text":"Splash Water Breathing Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:9224703,custom_effects:[{id:water_breathing,duration:1200}]},custom_name=[{"text":"Splash Water Breathing Potion"}]]"|8
+Potion|Splash Nausea Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:13294746,custom_effects:[{id:nausea,duration:1200}]},custom_name=[{"text":"Splash Nausea Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:13294746,custom_effects:[{id:nausea,duration:1200}]},custom_name=[{"text":"Splash Nausea Potion"}]]"|8
+Potion|Splash Fire Resistance Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:16755832,custom_effects:[{id:fire_resistance,duration:1200}]},custom_name=[{"text":"Splash Fire Resistance Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:16755832,custom_effects:[{id:fire_resistance,duration:1200}]},custom_name=[{"text":"Splash Fire Resistance Potion"}]]"|8
+Potion|Splash Health Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:13770809,custom_effects:[{id:instant_health,duration:1200}]},custom_name=[{"text":"Splash Health Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:13770809,custom_effects:[{id:instant_health,duration:1200}]},custom_name=[{"text":"Splash Health Potion"}]]"|8
+Potion|Splash Harming Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:9780043,custom_effects:[{id:instant_damage,duration:1200}]},custom_name=[{"text":"Splash Harming Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:9780043,custom_effects:[{id:instant_damage,duration:1200}]},custom_name=[{"text":"Splash Harming Potion"}]]"|8
+Potion|Splash Regeneration Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:16346554,custom_effects:[{id:regeneration,duration:1200}]},custom_name=[{"text":"Splash Regeneration Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:16346554,custom_effects:[{id:regeneration,duration:1200}]},custom_name=[{"text":"Splash Regeneration Potion"}]]"|8
+Potion|Splash Poison Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:6849305,custom_effects:[{id:poison,duration:1200}]},custom_name=[{"text":"Splash Poison Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:6849305,custom_effects:[{id:poison,duration:1200}]},custom_name=[{"text":"Splash Poison Potion"}]]"|8
+Potion|Splash Weakness Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:14460828,custom_effects:[{id:weakness,duration:1200}]},custom_name=[{"text":"Splash Weakness Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:14460828,custom_effects:[{id:weakness,duration:1200}]},custom_name=[{"text":"Splash Weakness Potion"}]]"|8
+Potion|Splash Strength Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:11626593,custom_effects:[{id:strength,duration:1200}]},custom_name=[{"text":"Splash Strength Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:11626593,custom_effects:[{id:strength,duration:1200}]},custom_name=[{"text":"Splash Strength Potion"}]]"|8
+Potion|Splash Weaving Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:11452072,custom_effects:[{id:weaving,duration:1200}]},custom_name=[{"text":"Splash Weaving Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:11452072,custom_effects:[{id:weaving,duration:1200}]},custom_name=[{"text":"Splash Weaving Potion"}]]"|8
+Potion|Splash Oozing Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:8039513,custom_effects:[{id:oozing,duration:1200}]},custom_name=[{"text":"Splash Oozing Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:8039513,custom_effects:[{id:oozing,duration:1200}]},custom_name=[{"text":"Splash Oozing Potion"}]]"|8
+Potion|Splash Wind Charging Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:16775114,custom_effects:[{id:wind_charged,duration:1200}]},custom_name=[{"text":"Splash Wind Charging Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:16775114,custom_effects:[{id:wind_charged,duration:1200}]},custom_name=[{"text":"Splash Wind Charging Potion"}]]"|8
+Potion|Splash Infestating Potion||/give @s minecraft:splash_potion[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:1200}]},custom_name=[{"text":"Splash Infesting Potion"}]] 8|/give @s minecraft:|splash_potion|"[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:1200}]},custom_name=[{"text":"Splash Infesting Potion"}]]"|8
+Foodstuffs|Bowl of Blood|1|/give @s minecraft:beetroot_soup[custom_name=[{"text":"Bowl of Blood"}]|rarity=epic,consumable={consume_seconds:8|sound:"entity.generic.drink"|on_consume_effects:[{type:apply_effects|effects:[{id:nausea,duration:1200}]}]}|food={nutrition:5|saturation:10}] 8|/give @s minecraft:|beetroot_soup|"[custom_name=[{"text":"Bowl of Blood"}]|rarity=epic,consumable={consume_seconds:8|sound:"entity.generic.drink"|on_consume_effects:[{type:apply_effects|effects:[{id:nausea,duration:1200}]}]}|food={nutrition:5|saturation:10}]"|8
+Foodstuffs|Tricky Poison Potato|1|/give @s minecraft:poisonous_potato[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects|effects:[poison]}|{type:apply_effects|effects:[{id:regeneration,duration:600}]}]}|food={nutrition:10|saturation:10}] 8|/give @s minecraft:|poisonous_potato|"[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects|effects:[poison]}|{type:apply_effects|effects:[{id:regeneration,duration:600}]}]}|food={nutrition:10|saturation:10}]"|8
 Foodstuffs|Poison Potato||/give @s minecraft:poisonous_potato 16|/give @s minecraft:|poisonous_potato||16
 Foodstuffs|Apple||/give @s minecraft:apple 16|/give @s minecraft:|apple||16
+Foodstuffs|Golden Apple||/give @s minecraft:golden_apple 16|/give @s minecraft:|golden_apple||16
+Foodstuffs|God Apple||/give @s minecraft:enchanted_golden_apple 16|/give @s minecraft:|enchanted_golden_apple||16
+Foodstuffs|Potato||/give @s minecraft:potato 32|/give @s minecraft:|potato||32
+Foodstuffs|Baked Potato||/give @s minecraft:baked_potato 16|/give @s minecraft:|baked_potato||16
+Foodstuffs,carrot||/give @s minecraft:carrot 32|/give @s minecraft:,carrot||32
+Foodstuffs|Golden Carrot||/give @s minecraft:golden_carrot 16|/give @s minecraft:|golden_carrot||16
+Foodstuffs|Sweet Berries||/give @s minecraft:sweet_berries 32|/give @s minecraft:|sweet_berries||32
+Foodstuffs|Glow Berries||/give @s minecraft:glow_berries 32|/give @s minecraft:|glow_berries||32
+Foodstuffs,chorus Fruit||/give @s minecraft:chorus_fruit 16|/give @s minecraft:,chorus_fruit||16
+Foodstuffs|Dried Kelp||/give @s minecraft:dried_kelp 32|/give @s minecraft:|dried_kelp||32
 Foodstuffs|Bread||/give @s minecraft:bread 16|/give @s minecraft:|bread||16
-
+Foodstuffs,cookie||/give @s minecraft:cookie 32|/give @s minecraft:,cookie||32
+Foodstuffs,cake||/give @s minecraft:cake 8|/give @s minecraft:,cake||8
+Foodstuffs|Honey Bottle||/give @s minecraft:honey_bottle 16|/give @s minecraft:|honey_bottle||16
+Foodstuffs|Raw Fish||/give @s minecraft:raw_salmon 16|/give @s minecraft:|raw_salmon||16
+Foodstuffs,chicken||/give @s minecraft:cooked_chicken 16|/give @s minecraft:,cooked_chicken||16
+Foodstuffs|Rabbit||/give @s minecraft:cooked_rabbit 16|/give @s minecraft:,cooked_rabbit||16
+Foodstuffs|Mutton||/give @s minecraft:cooked_mutton 16|/give @s minecraft:,cooked_mutton||16
+Foodstuffs|Porkchop||/give @s minecraft:cooked_porkchop 16|/give @s minecraft:,cooked_porkchop||16
+Foodstuffs|Steak||/give @s minecraft:cooked_beef 16|/give @s minecraft:,cooked_beef||16
+Foodstuffs|Spider Eye||/give @s minecraft:spider_eye 16|/give @s minecraft:|spider_eye||16
+Foodstuffs|Rotten Flesh||/give @s minecraft:rotten_flesh 16|/give @s minecraft:|rotten_flesh||16
+Foodstuffs|Pufferfish||/give @s minecraft:pufferfish 8|/give @s minecraft:|pufferfish||8
 Block|Oak Planks||/give @s minecraft:oak_planks 64|/give @s minecraft:|oak_planks||64
-Block|Cobblestone||/give @s minecraft:cobblestone 64|/give @s minecraft:|cobblestone||64
-Block|White Bed||/give @s minecraft:white_bed 16|/give @s minecraft:|white_bed||16
-Block|Torch||/give @s minecraft:torch 32|/give @s minecraft:|torch||32
-
+Block,cobblestone||/give @s minecraft:cobblestone 64|/give @s minecraft:,cobblestone||64
+Block|Bedrock||/give @s minecraft:bedrock 16|/give @s minecraft:|bedrock||16
+Block|Obsidian||/give @s minecraft:obsidian 32|/give @s minecraft:|obsidian||32
+Block|Ice||/give @s minecraft:ice |/give @s minecraft:|ice||
+Block|Blue Ice||/give @s minecraft:blue_ice |/give @s minecraft:|blue_ice||
+Block|Slime Block||/give @s minecraft:slime_block |/give @s minecraft:|slime_block||
+Block|Honey Block||/give @s minecraft:honey_block |/give @s minecraft:|honey_block||
+Block|Glass||/give @s minecraft:glass |/give @s minecraft:|glass||
+Block|Barrel||/give @s minecraft:barrel |/give @s minecraft:|barrel||
+Block|Bed||/give @s minecraft:red_bed |/give @s minecraft:|red_bed||
+Block|Anvil||/give @s minecraft:anvil |/give @s minecraft:|anvil||
+Block,cauldron||/give @s minecraft:cauldron |/give @s minecraft:,cauldron||
+Block|Scaffolding||/give @s minecraft:scaffolding |/give @s minecraft:|scaffolding||
+Block|Oak Door||/give @s minecraft:oak_door |/give @s minecraft:|oak_door||
+Block|Ladder||/give @s minecraft:ladder |/give @s minecraft:|ladder||
+Block|Oak Fence||/give @s minecraft:oak_fence |/give @s minecraft:|oak_fence||
+Block|Oak Button||/give @s minecraft:oak_button |/give @s minecraft:|oak_button||
+Block,cactus||/give @s minecraft:cactus |/give @s minecraft:,cactus||
+Block|White Carpet||/give @s minecraft:white_carpet |/give @s minecraft:|white_carpet||
+Block|Torch||/give @s minecraft:torch |/give @s minecraft:|torch||
+Block|String||/give @s minecraft:string |/give @s minecraft:|string||
+Block|Pointed Dripstone||/give @s minecraft:pointed dripstone |/give @s minecraft:|pointed dripstone||
+Block|Oak Sapling||/give @s minecraft:oak sapling |/give @s minecraft:|oak sapling||
+Block|Poppy||/give @s minecraft:poppy |/give @s minecraft:|poppy||
+Block|Vines||/give @s minecraft:vines |/give @s minecraft:|vines||
+Block,cobweb||/give @s minecraft:cobweb |/give @s minecraft:,cobweb||
+Effect|Absorption||/effect give @s minecraft:absorption 60 1|/effect give @s minecraft:|absorption||60 1
+Effect|Blindness||/effect give @s minecraft:blindness 60 1|/effect give @s minecraft:|blindness||60 1
+Effect,conduit Power||/effect give @s minecraft:conduit_power 60 1|/effect give @s minecraft:,conduit_power||60 1
+Effect|Darkness||/effect give @s minecraft:darkness 60 1|/effect give @s minecraft:|darkness||60 1
+Effect|Dolphin's Grace||/effect give @s minecraft:dolphins_grace 60 1|/effect give @s minecraft:|dolphins_grace||60 1
+Effect|Fire Resistance||/effect give @s minecraft:fire_resistance 60 1|/effect give @s minecraft:|fire_resistance||60 1
 Effect|Glowing||/effect give @s minecraft:glowing 60 1|/effect give @s minecraft:|glowing||60 1
+Effect|Haste||/effect give @s minecraft:haste 60 1|/effect give @s minecraft:|haste||60 1
+Effect|Hunger||/effect give @s minecraft:hunger 60 1|/effect give @s minecraft:|hunger||60 1
+Effect|Infested||/effect give @s minecraft:infested 60 1|/effect give @s minecraft:|infested||60 1
+Effect|Jump Boost||/effect give @s minecraft:jump_boost 60 1|/effect give @s minecraft:|jump_boost||60 1
+Effect|Levitation||/effect give @s minecraft:levitation 60 1|/effect give @s minecraft:|levitation||60 1
+Effect|Mining Fatigue||/effect give @s minecraft:mining_fatigue 60 1|/effect give @s minecraft:|mining_fatigue||60 1
+Effect|Nausea||/effect give @s minecraft:nausea 60 1|/effect give @s minecraft:|nausea||60 1
+Effect|Night Vision||/effect give @s minecraft:night_vision 60 1|/effect give @s minecraft:|night_vision||60 1
+Effect|Poison||/effect give @s minecraft:poison 60 1|/effect give @s minecraft:|poison||60 1
+Effect|Regeneration||/effect give @s minecraft:regeneration 60 1|/effect give @s minecraft:|regeneration||60 1
 Effect|Slow Falling||/effect give @s minecraft:slow_falling 60 1|/effect give @s minecraft:|slow_falling||60 1
 Effect|Slowness||/effect give @s minecraft:slowness 60 1|/effect give @s minecraft:|slowness||60 1
-Effect|Dolphin's Grace||/effect give @s minecraft:dolphins_grace 60 1|/effect give @s minecraft:|dolphins_grace||60 1
-
+Effect|Speed||/effect give @s minecraft:speed 60 1|/effect give @s minecraft:|speed||60 1
+Effect|Strength||/effect give @s minecraft:strength 60 1|/effect give @s minecraft:|strength||60 1
+Effect|Water Breathing||/effect give @s minecraft:water_breathing 60 1|/effect give @s minecraft:|water_breathing||60 1
+Effect|Weakness||/effect give @s minecraft:weakness 60 1|/effect give @s minecraft:|weakness||60 1
+Effect|Wither||/effect give @s minecraft:wither 60 1|/effect give @s minecraft:|wither||60 1
 Environment|Meadow|9|/tp @s -165 87 49 |/tp @s|| -165 87 49|
-Environment|Oak Forest|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|End Islands|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-
-Mob|Zombie|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie {MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie| {MobSpawnLoc}|
-Mob|Wolf|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf {MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf| {MobSpawnLoc}|
-Mob|Warden|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:warden {MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|warden| {MobSpawnLoc}|
-Mob|Bee|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:bee {MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|bee| {MobSpawnLoc}|
+Environment|End|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Desert|6|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Ice|4|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Snow|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Moss|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Nether|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Magma|3|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Soul Desert|6|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Mushroom|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Forest|7|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Old Forest|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Pale Garden|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Flower Forest|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Slime|7|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Hive|4|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Deep Dark|2|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Swamp|7|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Ocean|4|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Lava|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Monument|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Fortress|6|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Darkness|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Beach|9|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Library|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Stronghold|10|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment,cave|9|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Mob|Axolotl|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:axolotl{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|axolotl|{MobSpawnLoc}|
+Mob|Bat|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:bat{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|bat|{MobSpawnLoc}|
+Mob|Bee|4|/execute as @e[limit={SpawnAmt}] run summon minecraft:bee{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|bee|{MobSpawnLoc}|
+Mob|Blaze|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:blaze{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|blaze|{MobSpawnLoc}|
+Mob|Bogged|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:bogged{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|bogged|{MobSpawnLoc}|
+Mob,cave Spider|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:cave_spider{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:,cave_spider|{MobSpawnLoc}|
+Mob,chicken|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:chicken{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:,chicken|{MobSpawnLoc}|
+Mob,creaking|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:creaking{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:,creaking|{MobSpawnLoc}|
+Mob,creeper|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:creeper{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:,creeper|{MobSpawnLoc}|
+Mob|Elder Guardian|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:elder_guardian{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|elder_guardian|{MobSpawnLoc}|
+Mob|Enderman|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:enderman{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|enderman|{MobSpawnLoc}|
+Mob|Endermite|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:endermite{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|endermite|{MobSpawnLoc}|
+Mob|Ghast|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:ghast{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|ghast|{MobSpawnLoc}|
+Mob|Guardian|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:guardian{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|guardian|{MobSpawnLoc}|
+Mob|Horse|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:horse{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|horse|{MobSpawnLoc}|
+Mob|Phantom|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:phantom{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|phantom|{MobSpawnLoc}|
+Mob|Piglin|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:piglin{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|piglin|{MobSpawnLoc}|
+Mob|Polar Bear|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:polar_bear{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|polar_bear|{MobSpawnLoc}|
+Mob|Pufferfish|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:pufferfish{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|pufferfish|{MobSpawnLoc}|
+Mob|Shulker|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:shulker{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|shulker|{MobSpawnLoc}|
+Mob|Silverfish|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:silverfish{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|silverfish|{MobSpawnLoc}|
+Mob|Skeleton|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:skeleton{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|skeleton|{MobSpawnLoc}|
+Mob|Snow Golem|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:snow_golem{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|snow_golem|{MobSpawnLoc}|
+Mob|Strider|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:strider{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|strider|{MobSpawnLoc}|
+Mob|Tropical Fish|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:tropical_fish{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|tropical_fish|{MobSpawnLoc}|
+Mob|Vex|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:vex{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|vex|{MobSpawnLoc}|
+Mob|Warden|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:warden{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|warden|{MobSpawnLoc}|
+Mob|Wither|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:wither{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wither|{MobSpawnLoc}|
+Mob|Wither Skeleton|4|/execute as @e[limit={SpawnAmt}] run summon minecraft:wither_skeleton{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wither_skeleton|{MobSpawnLoc}|
+Mob|Wolf|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf|{MobSpawnLoc}|
+Mob|Zombie|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie|{MobSpawnLoc}|
 
 CWeather|Clear|10|/weather clear |/weather |clear||
 CWeather|Clear|10|/weather clear |/weather |clear||
