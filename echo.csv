@@ -34,8 +34,8 @@ Legs|Leather Leggings|3|/give @s minecraft:leather_leggings 1|/give @s minecraft
 Legs|Gold Leggings|5|/give @s minecraft:golden_leggings 1|/give @s minecraft:|golden_leggings||1
 Legs|Chainmail Leggings|5|/give @s minecraft:chainmail_leggings 1|/give @s minecraft:|chainmail_leggings||1
 Legs|Iron Leggings|7|/give @s minecraft:iron_leggings 1|/give @s minecraft:|iron_leggings||1
-Legs|Diamond legs|9|/give @s minecraft:diamond_leggings 1|/give @s minecraft:|diamond_leggings||1
-Legs|Netherite legs|10|/give @s minecraft:netherite_leggings 1|/give @s minecraft:|netherite_leggings||1
+Legs|Diamond Leggings|9|/give @s minecraft:diamond_leggings 1|/give @s minecraft:|diamond_leggings||1
+Legs|Netherite Leggings|10|/give @s minecraft:netherite_leggings 1|/give @s minecraft:|netherite_leggings||1
 
 Feet|Leather Boots|4|/give @s minecraft:leather_boots 1|/give @s minecraft:|leather_boots||1
 Feet|Gold Boots|4|/give @s minecraft:golden_boots 1|/give @s minecraft:|golden_boots||1
@@ -113,7 +113,7 @@ ToolB|Emeralds|1|/give @s minecraft:emerald 16|/give @s minecraft:|emerald||16
 ToolB|Bottles o' Enchanting|1|/give @s minecraft:experience_bottle 16|/give @s minecraft:|experience_bottle||16
 ToolB|Bone Meal|1|/give @s minecraft:bone_meal 16|/give @s minecraft:|bone_meal||16
 ToolB|Book and Quill|0|/give @s minecraft:writeable_book 1|/give @s minecraft:|writeable_book||1
-ToolB|Blank Map|0|/give @s minecraft:map 1|/give @s minecraft:|map||1
+ToolB|Blank Map|2|/give @s minecraft:map 1|/give @s minecraft:|map||1
 ToolB|Goat Horn|1|/give @s minecraft:goat_horn 1|/give @s minecraft:|goat_horn||1
 ToolB|Bucket of Axolotl|3|/give @s minecraft:axolotl_bucket 1|/give @s minecraft:|axolotl_bucket||1
 ToolB|Bucket of Pufferfish|5|/give @s minecraft:pufferfish_bucket 1|/give @s minecraft:|pufferfish_bucket||1
@@ -169,7 +169,7 @@ Potion|Splash Strength Potion|5|/give @s minecraft:splash_potion[potion_contents
 Potion|Splash Weaving Potion|1|/give @s minecraft:splash_potion[potion_contents={custom_color:11452072,custom_effects:[{id:weaving,duration:1200}]},custom_name=[{"text":"Splash Weaving Potion"}]] 8|/give @s minecraft:|splash_potion|[potion_contents={custom_color:11452072,custom_effects:[{id:weaving,duration:1200}]},custom_name=[{"text":"Splash Weaving Potion"}]]|8
 Potion|Splash Oozing Potion|1|/give @s minecraft:splash_potion[potion_contents={custom_color:8039513,custom_effects:[{id:oozing,duration:1200}]},custom_name=[{"text":"Splash Oozing Potion"}]] 8|/give @s minecraft:|splash_potion|[potion_contents={custom_color:8039513,custom_effects:[{id:oozing,duration:1200}]},custom_name=[{"text":"Splash Oozing Potion"}]]|8
 Potion|Splash Wind Charging Potion|1|/give @s minecraft:splash_potion[potion_contents={custom_color:16775114,custom_effects:[{id:wind_charged,duration:1200}]},custom_name=[{"text":"Splash Wind Charging Potion"}]] 8|/give @s minecraft:|splash_potion|[potion_contents={custom_color:16775114,custom_effects:[{id:wind_charged,duration:1200}]},custom_name=[{"text":"Splash Wind Charging Potion"}]]|8
-Potion|Splash Infestating Potion|1|/give @s minecraft:splash_potion[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:1200}]},custom_name=[{"text":"Splash Infesting Potion"}]] 8|/give @s minecraft:|splash_potion|[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:1200}]},custom_name=[{"text":"Splash Infesting Potion"}]]|8
+Potion|Splash Infestation Potion|1|/give @s minecraft:splash_potion[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:1200}]},custom_name=[{"text":"Splash Infesting Potion"}]] 8|/give @s minecraft:|splash_potion|[potion_contents={custom_color:10854284,custom_effects:[{id:infested,duration:1200}]},custom_name=[{"text":"Splash Infesting Potion"}]]|8
 
 Foodstuffs|Bowl of Blood|2|/give @s minecraft:beetroot_soup[custom_name=[{"text":"Bowl of Blood"}],rarity=epic,consumable={consume_seconds:8,sound:"entity.generic.drink",on_consume_effects:[{type:apply_effects,effects:[{id:nausea,duration:1200}]}]},food={nutrition:5,saturation:10}] 8|/give @s minecraft:|beetroot_soup|[custom_name=[{"text":"Bowl of Blood"}],rarity=epic,consumable={consume_seconds:8,sound:"entity.generic.drink",on_consume_effects:[{type:apply_effects,effects:[{id:nausea,duration:1200}]}]},food={nutrition:5,saturation:10}]|8
 Foodstuffs|Tricky Poison Potato|2|/give @s minecraft:poisonous_potato[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects,effects:[poison]},{type:apply_effects,effects:[{id:regeneration,duration:600}]}]},food={nutrition:10,saturation:10}] 8|/give @s minecraft:|poisonous_potato|[custom_name=[{"text":"Tricky Poisonous Potato"}],consumable={on_consume_effects:[{type:remove_effects,effects:[poison]},{type:apply_effects,effects:[{id:regeneration,duration:600}]}]},food={nutrition:10,saturation:10}]|8
@@ -236,7 +236,7 @@ Effect|Fire Resistance|9|/effect give @s minecraft:fire_resistance 60 1|/effect 
 Effect|Glowing|1|/effect give @s minecraft:glowing 60 1|/effect give @s minecraft:|glowing||60 1
 Effect|Haste|5|/effect give @s minecraft:haste 60 1|/effect give @s minecraft:|haste||60 1
 Effect|Hunger|1|/effect give @s minecraft:hunger 60 1|/effect give @s minecraft:|hunger||60 1
-Effect|Infested|1|/effect give @s minecraft:infested 60 1|/effect give @s minecraft:|infested||60 1
+Effect|Infestation|1|/effect give @s minecraft:infested 60 1|/effect give @s minecraft:|infested||60 1
 Effect|Jump Boost|4|/effect give @s minecraft:jump_boost 60 1|/effect give @s minecraft:|jump_boost||60 1
 Effect|Levitation|4|/effect give @s minecraft:levitation 60 1|/effect give @s minecraft:|levitation||60 1
 Effect|Mining Fatigue|1|/effect give @s minecraft:mining_fatigue 60 1|/effect give @s minecraft:|mining_fatigue||60 1
