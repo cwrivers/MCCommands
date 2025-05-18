@@ -221,8 +221,8 @@ Block|Cactus|5|/give @s minecraft:cactus 64|/give @s minecraft:|cactus||64
 Block|White Carpet|5|/give @s minecraft:white_carpet 64|/give @s minecraft:|white_carpet||64
 Block|Torch|5|/give @s minecraft:torch 32|/give @s minecraft:|torch||32
 Block|String|2|/give @s minecraft:string 64|/give @s minecraft:|string||64
-Block|Pointed Dripstone|5|/give @s minecraft:pointed dripstone 32|/give @s minecraft:|pointed dripstone||32
-Block|Oak Sapling|2|/give @s minecraft:oak sapling 64|/give @s minecraft:|oak sapling||64
+Block|Pointed Dripstone|5|/give @s minecraft:pointed_dripstone 32|/give @s minecraft:|pointed_dripstone||32
+Block|Oak Sapling|2|/give @s minecraft:oak_sapling 64|/give @s minecraft:|oak_sapling||64
 Block|Poppy|2|/give @s minecraft:poppy 64|/give @s minecraft:|poppy||64
 Block|Vines|4|/give @s minecraft:vines 32|/give @s minecraft:|vines||32
 Block|Cobweb|7|/give @s minecraft:cobweb 32|/give @s minecraft:|cobweb||32
@@ -257,37 +257,37 @@ Environment|Pale Garden|5|/tp @s 8984 123  -3474 |/tp @s|| 8984 123  -3474|
 Environment|Ocean|4|/tp @s 104 75 254 |/tp @s|| 104 75 254|
 Environment|Lava|1|/tp @s -243 108 -33 |/tp @s|| -243 108 -33|
 
-Mob|Axolotl|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:axolotl{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|axolotl|{MobSpawnLoc}|
-Mob|Bat|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:bat{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bat|{MobSpawnLoc}|
-Mob|Bee|4|/execute as @e[limit={SpawnAmt}] run summon minecraft:bee{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bee|{MobSpawnLoc}|
-Mob|Blaze|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:blaze{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|blaze|{MobSpawnLoc}|
-Mob|Bogged|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:bogged{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bogged|{MobSpawnLoc}|
-Mob|Cave Spider|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:cave_spider{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|cave_spider|{MobSpawnLoc}|
-Mob|Chicken|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:chicken{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|chicken|{MobSpawnLoc}|
-Mob|Creeper|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:creeper{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|creeper|{MobSpawnLoc}|
-Mob|Elder Guardian|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:elder_guardian{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|elder_guardian|{MobSpawnLoc}|
-Mob|Enderman|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:enderman{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|enderman|{MobSpawnLoc}|
-Mob|Endermite|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:endermite{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|endermite|{MobSpawnLoc}|
-Mob|Ghast|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:ghast{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|ghast|{MobSpawnLoc}|
-Mob|Guardian|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:guardian{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|guardian|{MobSpawnLoc}|
-Mob|Horse|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:horse{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|horse|{MobSpawnLoc}|
-Mob|Llama|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:llama{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|llama|{MobSpawnLoc}|
-Mob|Phantom|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:phantom{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|phantom|{MobSpawnLoc}|
-Mob|Piglin|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:piglin{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|piglin|{MobSpawnLoc}|
-Mob|Polar Bear|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:polar_bear{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|polar_bear|{MobSpawnLoc}|
-Mob|Pufferfish|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:pufferfish{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|pufferfish|{MobSpawnLoc}|
-Mob|Shulker|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:shulker{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|shulker|{MobSpawnLoc}|
-Mob|Silverfish|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:silverfish{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|silverfish|{MobSpawnLoc}|
-Mob|Skeleton|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:skeleton{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|skeleton|{MobSpawnLoc}|
-Mob|Snow Golem|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:snow_golem{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|snow_golem|{MobSpawnLoc}|
-Mob|Strider|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:strider{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|strider|{MobSpawnLoc}|
-Mob|Tropical Fish|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:tropical_fish{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|tropical_fish|{MobSpawnLoc}|
-Mob|Vex|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:vex{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|vex|{MobSpawnLoc}|
-Mob|Warden|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:warden{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|warden|{MobSpawnLoc}|
-Mob|Wither|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:wither{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|wither|{MobSpawnLoc}|
-Mob|Wither Skeleton|4|/execute as @e[limit={SpawnAmt}] run summon minecraft:wither_skeleton{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|wither_skeleton|{MobSpawnLoc}|
-Mob|Wolf|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf|{MobSpawnLoc}|
-Mob|Zombie|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie|{MobSpawnLoc}|
+Mob|Axolotl|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:axolotl {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|axolotl| {MobSpawnLoc}|
+Mob|Bat|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:bat {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bat| {MobSpawnLoc}|
+Mob|Bee|4|/execute as @e[limit={SpawnAmt}] run summon minecraft:bee {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bee| {MobSpawnLoc}|
+Mob|Blaze|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:blaze {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|blaze| {MobSpawnLoc}|
+Mob|Bogged|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:bogged {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bogged| {MobSpawnLoc}|
+Mob|Cave Spider|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:cave_spider {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|cave_spider| {MobSpawnLoc}|
+Mob|Chicken|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:chicken {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|chicken| {MobSpawnLoc}|
+Mob|Creeper|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:creeper {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|creeper| {MobSpawnLoc}|
+Mob|Elder Guardian|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:elder_guardian {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|elder_guardian| {MobSpawnLoc}|
+Mob|Enderman|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:enderman {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|enderman| {MobSpawnLoc}|
+Mob|Endermite|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:endermite {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|endermite| {MobSpawnLoc}|
+Mob|Ghast|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:ghast {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|ghast| {MobSpawnLoc}|
+Mob|Guardian|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:guardian {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|guardian| {MobSpawnLoc}|
+Mob|Horse|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:horse {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|horse| {MobSpawnLoc}|
+Mob|Llama|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:llama {MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|llama| {MobSpawnLoc}|
+Mob|Phantom|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:phantom {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|phantom| {MobSpawnLoc}|
+Mob|Piglin|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:piglin {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|piglin| {MobSpawnLoc}|
+Mob|Polar Bear|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:polar_bear {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|polar_bear| {MobSpawnLoc}|
+Mob|Pufferfish|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:pufferfish {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|pufferfish| {MobSpawnLoc}|
+Mob|Shulker|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:shulker {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|shulker| {MobSpawnLoc}|
+Mob|Silverfish|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:silverfish {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|silverfish| {MobSpawnLoc}|
+Mob|Skeleton|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:skeleton {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|skeleton| {MobSpawnLoc}|
+Mob|Snow Golem|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:snow_golem {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|snow_golem| {MobSpawnLoc}|
+Mob|Strider|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:strider {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|strider| {MobSpawnLoc}|
+Mob|Tropical Fish|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:tropical_fish {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|tropical_fish| {MobSpawnLoc}|
+Mob|Vex|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:vex {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|vex| {MobSpawnLoc}|
+Mob|Warden|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:warden {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|warden| {MobSpawnLoc}|
+Mob|Wither|0|/execute as @e[limit={SpawnAmt}] run summon minecraft:wither {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|wither| {MobSpawnLoc}|
+Mob|Wither Skeleton|4|/execute as @e[limit={SpawnAmt}] run summon minecraft:wither_skeleton {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|wither_skeleton| {MobSpawnLoc}|
+Mob|Wolf|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf| {MobSpawnLoc}|
+Mob|Zombie|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie| {MobSpawnLoc}|
 
 Weather|Clear|10|/weather clear |/weather |Clear||
 Weather|Clear|10|/weather clear |/weather |Clear||
