@@ -252,7 +252,7 @@ Effect|Water Breathing|8|/effect give @s minecraft:water_breathing 60 1|/effect 
 Effect|Weakness|1|/effect give @s minecraft:weakness 60 1|/effect give @s minecraft:|weakness||60 1
 Effect|Wither|1|/effect give @s minecraft:wither 60 1|/effect give @s minecraft:|wither||60 1
 
-Environment|Meadow|9|/tp @s -126 96 6 |/tp @s|| -126 96 6|
+Environment|Meadow|9|/tp @s -126 96 -6 |/tp @s|| -126 96 -6|
 Environment|Pale Garden|5|/tp @s 8984 123  -3474 |/tp @s|| 8984 123  -3474|
 Environment|Ocean|4|/tp @s 104 75 254 |/tp @s|| 104 75 254|
 Environment|Lava|1|/tp @s -243 108 -33 |/tp @s|| -243 108 -33|
