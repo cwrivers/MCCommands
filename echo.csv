@@ -102,12 +102,12 @@ ToolA|Bones|2|/give @s minecraft:bone 32|/give @s minecraft:|bone||32
 ToolA|Boat|7|/give @s minecraft:oak_boat 1|/give @s minecraft:|oak_boat||1
 ToolA|Stick|1|/give @s minecraft:stick 1|/give @s minecraft:|stick||1
 
-ToolB|Leather Horse Armor|1|/give @s minecraft:leather_horse_armor 1|/give @s minecraft:|leather_horse_armor||1
-ToolB|Iron Horse Armor|2|/give @s minecraft:iron_horse_armor 1|/give @s minecraft:|iron_horse_armor||1
-ToolB|Gold Horse Armor|3|/give @s minecraft:golden_horse_armor 1|/give @s minecraft:|golden_horse_armor||1
-ToolB|Diamond Horse Armor|4|/give @s minecraft:diamond_horse_armor 1|/give @s minecraft:|diamond_horse_armor||1
+ToolB|Leather Horse Armor|3|/give @s minecraft:leather_horse_armor 1|/give @s minecraft:|leather_horse_armor||1
+ToolB|Iron Horse Armor|4|/give @s minecraft:iron_horse_armor 1|/give @s minecraft:|iron_horse_armor||1
+ToolB|Gold Horse Armor|5|/give @s minecraft:golden_horse_armor 1|/give @s minecraft:|golden_horse_armor||1
+ToolB|Diamond Horse Armor|6|/give @s minecraft:diamond_horse_armor 1|/give @s minecraft:|diamond_horse_armor||1
 ToolB|Wolf Armor|2|/give @s minecraft:wolf_armor 1|/give @s minecraft:|wolf_armor||1
-ToolB|Ender Pearls|5|/give @s minecraft:ender_pearl 16|/give @s minecraft:|ender_pearl||16
+ToolB|Ender Pearls|9|/give @s minecraft:ender_pearl 16|/give @s minecraft:|ender_pearl||16
 ToolB|Gold Ingots|2|/give @s minecraft:gold_ingot 16|/give @s minecraft:|gold_ingot||16
 ToolB|Emeralds|1|/give @s minecraft:emerald 16|/give @s minecraft:|emerald||16
 ToolB|Bottles o' Enchanting|1|/give @s minecraft:experience_bottle 16|/give @s minecraft:|experience_bottle||16
@@ -115,20 +115,20 @@ ToolB|Bone Meal|1|/give @s minecraft:bone_meal 16|/give @s minecraft:|bone_meal|
 ToolB|Book and Quill|0|/give @s minecraft:writeable_book 1|/give @s minecraft:|writeable_book||1
 ToolB|Blank Map|0|/give @s minecraft:map 1|/give @s minecraft:|map||1
 ToolB|Goat Horn|1|/give @s minecraft:goat_horn 1|/give @s minecraft:|goat_horn||1
-ToolB|Bucket of Axolotl|2|/give @s minecraft:axolotl_bucket 1|/give @s minecraft:|axolotl_bucket||1
-ToolB|Bucket of Pufferfish|3|/give @s minecraft:pufferfish_bucket 1|/give @s minecraft:|pufferfish_bucket||1
+ToolB|Bucket of Axolotl|3|/give @s minecraft:axolotl_bucket 1|/give @s minecraft:|axolotl_bucket||1
+ToolB|Bucket of Pufferfish|5|/give @s minecraft:pufferfish_bucket 1|/give @s minecraft:|pufferfish_bucket||1
 ToolB|Glass Bottles|1|/give @s minecraft:glass_bottle 16|/give @s minecraft:|glass_bottle||16
-ToolB|Shears|4|/give @s minecraft:shears 1|/give @s minecraft:|shears||1
+ToolB|Shears|7|/give @s minecraft:shears 1|/give @s minecraft:|shears||1
 ToolB|Brush|1|/give @s minecraft:brush 1|/give @s minecraft:|brush||1
 ToolB|Leashes|4|/give @s minecraft:lead 16|/give @s minecraft:|lead||16
 ToolB|Compass|1|/give @s minecraft:compass 1|/give @s minecraft:|compass||1
 ToolB|Recovery Compass|1|/give @s minecraft:recovery_compass 1|/give @s minecraft:|recovery_compass||1
 ToolB|Clock|2|/give @s minecraft:clock 1|/give @s minecraft:|clock||1
 ToolB|Sign|3|/give @s minecraft:oak_sign 1|/give @s minecraft:|oak_sign||1
-ToolB|Wolf|6|/give @s minecraft:wolf_spawn_egg 1|/give @s minecraft:|wolf_spawn_egg||1
-ToolB|Horse|5|/give @s minecraft:horse_spawn_egg 1|/give @s minecraft:|horse_spawn_egg||1
-ToolB|Pig|2|/give @s minecraft:pig_spawn_egg 1|/give @s minecraft:|pig_spawn_egg||1
-ToolB|Strider|5|/give @s minecraft:strider_spawn_egg 1|/give @s minecraft:|strider_spawn_egg||1
+ToolB|Wolf|10|/give @s minecraft:wolf_spawn_egg 1|/give @s minecraft:|wolf_spawn_egg||1
+ToolB|Horse|9|/give @s minecraft:horse_spawn_egg 1|/give @s minecraft:|horse_spawn_egg||1
+ToolB|Pig|3|/give @s minecraft:pig_spawn_egg 1|/give @s minecraft:|pig_spawn_egg||1
+ToolB|Strider|8|/give @s minecraft:strider_spawn_egg 1|/give @s minecraft:|strider_spawn_egg||1
 
 Ammo|Flint and Steel|7|/give @s minecraft:flint_and_steel 1|/give @s minecraft:|flint_and_steel||1
 Ammo|Arrow|2|/give @s minecraft:arrow 64|/give @s minecraft:|arrow||64
@@ -252,33 +252,10 @@ Effect|Water Breathing|8|/effect give @s minecraft:water_breathing 60 1|/effect 
 Effect|Weakness|1|/effect give @s minecraft:weakness 60 1|/effect give @s minecraft:|weakness||60 1
 Effect|Wither|1|/effect give @s minecraft:wither 60 1|/effect give @s minecraft:|wither||60 1
 
-Environment|Meadow|9|/tp @s -165 87 49 |/tp @s|| -165 87 49|
-Environment|End|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Desert|6|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Ice|4|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Snow|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Moss|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Nether|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Magma|3|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Soul Desert|6|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Mushroom|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Forest|7|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Old Forest|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Pale Garden|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Flower Forest|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Slime|7|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Hive|4|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Deep Dark|2|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Swamp|7|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Ocean|4|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Lava|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Monument|5|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Fortress|6|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Darkness|1|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Beach|9|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Library|8|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Stronghold|10|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
-Environment|Cave|9|/tp @s ~ ~ ~ |/tp @s|| ~ ~ ~|
+Environment|Meadow|9|/tp @s -126 96 6 |/tp @s|| -126 96 6|
+Environment|Pale Garden|5|/tp @s 8984 123  -3474 |/tp @s|| 8984 123  -3474|
+Environment|Ocean|4|/tp @s 104 75 254 |/tp @s|| 104 75 254|
+Environment|Lava|1|/tp @s -243 108 -33 |/tp @s|| -243 108 -33|
 
 Mob|Axolotl|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:axolotl{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|axolotl|{MobSpawnLoc}|
 Mob|Bat|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:bat{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bat|{MobSpawnLoc}|
@@ -287,7 +264,6 @@ Mob|Blaze|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:blaze{MobSpawn
 Mob|Bogged|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:bogged{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bogged|{MobSpawnLoc}|
 Mob|Cave Spider|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:cave_spider{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|cave_spider|{MobSpawnLoc}|
 Mob|Chicken|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:chicken{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|chicken|{MobSpawnLoc}|
-Mob|Creaking|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:creaking{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|creaking|{MobSpawnLoc}|
 Mob|Creeper|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:creeper{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|creeper|{MobSpawnLoc}|
 Mob|Elder Guardian|1|/execute as @e[limit={SpawnAmt}] run summon minecraft:elder_guardian{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|elder_guardian|{MobSpawnLoc}|
 Mob|Enderman|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:enderman{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|enderman|{MobSpawnLoc}|
@@ -295,6 +271,7 @@ Mob|Endermite|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:endermite
 Mob|Ghast|2|/execute as @e[limit={SpawnAmt}] run summon minecraft:ghast{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|ghast|{MobSpawnLoc}|
 Mob|Guardian|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:guardian{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|guardian|{MobSpawnLoc}|
 Mob|Horse|8|/execute as @e[limit={SpawnAmt}] run summon minecraft:horse{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|horse|{MobSpawnLoc}|
+Mob|Llama|5|/execute as @e[limit={SpawnAmt}] run summon minecraft:llama{MobSpawnLoc} |/execute as @e[limit={SpawnAmt}] run summon minecraft:|llama|{MobSpawnLoc}|
 Mob|Phantom|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:phantom{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|phantom|{MobSpawnLoc}|
 Mob|Piglin|3|/execute as @e[limit={SpawnAmt}] run summon minecraft:piglin{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|piglin|{MobSpawnLoc}|
 Mob|Polar Bear|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:polar_bear{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|polar_bear|{MobSpawnLoc}|
@@ -312,12 +289,16 @@ Mob|Wither Skeleton|4|/execute as @e[limit={SpawnAmt}] run summon minecraft:with
 Mob|Wolf|7|/execute as @e[limit={SpawnAmt}] run summon minecraft:wolf{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|wolf|{MobSpawnLoc}|
 Mob|Zombie|6|/execute as @e[limit={SpawnAmt}] run summon minecraft:zombie{MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|zombie|{MobSpawnLoc}|
 
-CWeather|Clear|10|/weather clear |/weather |Clear||
-CWeather|Clear|10|/weather clear |/weather |Clear||
-CWeather|Clear|10|/weather clear |/weather |Clear||
+Weather|Clear|10|/weather clear |/weather |Clear||
+Weather|Clear|10|/weather clear |/weather |Clear||
+Weather|Clear|10|/weather clear |/weather |Clear||
 
-Weather|Rain|8|/weather rain |/weather |rain||
-Weather|Rain|8|/weather rain |/weather |rain||
-Weather|Thunderstorm|5|/weather thunder |/weather |thunder||
+SWeather|Rain|8|/weather rain |/weather |rain||
+SWeather|Rain|8|/weather rain |/weather |rain||
+SWeather|Rain|8|/weather rain |/weather |rain||
+SWeather|Thunderstorm|5|/weather thunder |/weather |thunder||
 
-MobSpawn|Meadow|10|-192 87 22|-192 87 22|||
+MobSpawn|Meadow|10|-151 99 37 |-151 99 37|||
+MobSpawn|Ocean|4|143 57 244|143 57 244|||
+MobSpawn|Pale Garden|5|8884 127 -3424 |8884 127 -3424|||
+MobSpawn|Lava|4|144 57 244|-331 105 33|||
