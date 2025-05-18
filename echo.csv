@@ -255,7 +255,7 @@ Effect|Wither|1|/effect give @s minecraft:wither 60 1|/effect give @s minecraft:
 Environment|Meadow|9|/tp @s -126 96 -6 |/tp @s|| -126 96 -6|
 Environment|Pale Garden|5|/tp @s 8984 123  -3474 |/tp @s|| 8984 123  -3474|
 Environment|Ocean|4|/tp @s 104 75 254 |/tp @s|| 104 75 254|
-Environment|Lava|1|/tp @s -243 108 -33 |/tp @s|| -243 108 -33|
+Environment|Lava|2|/tp @s -243 108 -33 |/tp @s|| -243 108 -33|
 
 Mob|Axolotl|10|/execute as @e[limit={SpawnAmt}] run summon minecraft:axolotl {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|axolotl| {MobSpawnLoc}|
 Mob|Bat|9|/execute as @e[limit={SpawnAmt}] run summon minecraft:bat {MobSpawnLoc}|/execute as @e[limit={SpawnAmt}] run summon minecraft:|bat| {MobSpawnLoc}|
@@ -301,4 +301,4 @@ SWeather|Thunderstorm|5|/weather thunder |/weather |thunder||
 MobSpawn|Meadow|10|-151 99 37 |-151 99 37|||
 MobSpawn|Ocean|4|143 57 244|143 57 244|||
 MobSpawn|Pale Garden|5|8884 127 -3424 |8884 127 -3424|||
-MobSpawn|Lava|4|144 57 244|-331 105 33|||
+MobSpawn|Lava|2|144 57 244|-331 105 33|||
